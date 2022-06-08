@@ -36,7 +36,7 @@ contract DuperSuperSafeSafe {
     }
   }
 
-  function changeSecretPassphrase(bytes32 _new_secret_passphrase, bytes32 _new_secret_passphrase_2, bytes32 _secret_passphrase, bytes32_secret_passphrase_2, uint _timestamp) public restricted passwordProtected(_secret_passphrase, _secret_passphrase_2, _timestamp) {
+  function changeSecretPassphrase(bytes32 _new_secret_passphrase, bytes32 _new_secret_passphrase_2, bytes32 _secret_passphrase, bytes32 _secret_passphrase_2, uint _timestamp) public restricted passwordProtected(_secret_passphrase, _secret_passphrase_2, _timestamp) {
     secret_passphrases[0] = _new_secret_passphrase;
     secret_passphrases[1] = _new_secret_passphrase_2;
     timestamp = block.timestamp;
