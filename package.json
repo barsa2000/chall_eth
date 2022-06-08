@@ -1,0 +1,25 @@
+{
+  "author": "@tinchoabbate",
+  "version": "2.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barsa2000/chall_eth"
+  },
+  "scripts": {
+    "bonjour": "yarn hardhat test test/bonjour/bonjour.challenge.js",
+    "you-only-have-one-chance": "yarn hardhat test test/you-only-have-one-chance/you-only-have-one-chance.challenge.js",
+    "duper-super-safe-safe": "yarn hardhat test test/duper-super-safe-safe/duper-super-safe-safe.challenge.js",
+    "rolls-royce": "yarn hardhat test test/rolls-royce/rolls-royce.challenge.js"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "2.0.2",
+    "@nomiclabs/hardhat-waffle": "2.0.1",
+    "@openzeppelin/hardhat-upgrades": "1.10.0",
+    "chai": "4.3.4",
+    "ethereum-waffle": "3.4.0",
+    "ethers": "5.4.7",
+    "hardhat": "2.6.4",
+    "hardhat-dependency-compiler": "1.1.1"
+  }
+}
