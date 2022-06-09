@@ -6,7 +6,7 @@ Aggregation of challs based on ethereum from different CTFs.
 
 1. Clone the repository
 2. Install dependencies with `yarn install`
-3. Code your solutions in the provided \*.challenge.js files (inside each challenge's folder in the test folder)
+3. Code your solutions in the provided `*.challenge.js` files (inside each challenge's folder in the test folder)
 4. Run your exploit for a challenge with `yarn run challenge-name`. If the challenge is executed successfully, you've passed!
 
 ## Tips and tricks
